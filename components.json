@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2026-10-30T00:25:00Z",
+  "note": "桌面端可选组件的清单。文件与本清单同在本分支根目录，客户端按 raw 直链下载，不比对摘要（靠大小上限与安装阶段的 PE/ZIP 校验）。",
+  "components": [
+    {
+      "name": "cloudflared",
+      "file": "cloudflared-windows-amd64.exe",
+      "version": "2026.10.3",
+      "size": 55329336,
+      "sha256": "76b2805253d0d6ffacb092a7acfbee99e7af6917835c0c5410e23f3ef5052da2",
+      "purpose": "Cloudflare Tunnel（一键启动隧道）"
+    },
+    {
+      "name": "easytier",
+      "file": "easytier-windows-x86_64-v2.6.4.zip",
+      "version": "2.6.4",
+      "size": 32657720,
+      "sha256": "27af91e270e554709b048bd32327fefd2dfce5062ae1e8701af7550c6f525f84",
+      "purpose": "EasyTier 虚拟组网（官方原包，安装时只解出 core/cli 与两个驱动）"
+    },
+    {
+      "name": "easytier-license",
+      "file": "LICENSE-EasyTier.txt",
+      "version": "",
+      "size": 7652,
+      "sha256": "",
+      "purpose": "EasyTier 是 LGPL-3.0，随二进制一起分发"
+    }
+  ]
+}
