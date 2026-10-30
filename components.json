@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T00:25:00Z",
+  "updatedAt": "2026-10-30T10:50:00Z",
   "note": "桌面端可选组件的清单。文件与本清单同在本分支根目录，客户端按 raw 直链下载，不比对摘要（靠大小上限与安装阶段的 PE/ZIP 校验）。",
   "components": [
     {
@@ -17,6 +17,14 @@
       "size": 32657720,
       "sha256": "27af91e270e554709b048bd32327fefd2dfce5062ae1e8701af7550c6f525f84",
       "purpose": "EasyTier 虚拟组网（官方原包，安装时只解出 core/cli 与两个驱动）"
+    },
+    {
+      "name": "frpc",
+      "file": "frp_0.71.1_windows_amd64.zip",
+      "version": "0.71.1",
+      "size": 14152383,
+      "sha256": "b90074b2b6a1d792a7a40f085ac6d276bcab2d1bc60201f8a86ca53ce65ce821",
+      "purpose": "FRP 客户端（官方原包，安装时只解出 frpc.exe；frps 服务端由用户自备）"
     },
     {
       "name": "easytier-license",
