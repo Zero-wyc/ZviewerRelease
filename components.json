@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T10:50:00Z",
+  "updatedAt": "2026-10-30T14:50:00Z",
   "note": "桌面端可选组件的清单。文件与本清单同在本分支根目录，客户端按 raw 直链下载，不比对摘要（靠大小上限与安装阶段的 PE/ZIP 校验）。",
   "components": [
     {
@@ -25,6 +25,14 @@
       "size": 14152383,
       "sha256": "b90074b2b6a1d792a7a40f085ac6d276bcab2d1bc60201f8a86ca53ce65ce821",
       "purpose": "FRP 客户端（官方原包，安装时只解出 frpc.exe；frps 服务端由用户自备）"
+    },
+    {
+      "name": "livekit",
+      "file": "livekit_1.13.7_windows_amd64.zip",
+      "version": "1.13.7",
+      "size": 18446833,
+      "sha256": "42279f10375b705f5b66dc5714520b49bb3f79391140b974d877d3dbfeab07c3",
+      "purpose": "语音聊天（LiveKit SFU，官方原包，安装时只解出 livekit-server.exe；由后端在房间内按需下载）"
     },
     {
       "name": "easytier-license",
