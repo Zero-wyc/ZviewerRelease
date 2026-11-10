@@ -1,0 +1,27 @@
+{
+  "tag": "v5.2.3",
+  "version": "5.2.3",
+  "commit": "55fd679433b3d185560954e576a781ef6fe05b60",
+  "publishedAt": "2026-11-10T16:31:04Z",
+  "releaseUrl": "https://github.com/Zero-wyc/ZViewer/releases/tag/v5.2.3",
+  "assets": [
+    {
+      "name": "zviewer-linux-x64.tar.gz",
+      "size": 28495774,
+      "sha256": "bbcc9f2ddd47d523c3f885da0a2d6759fc18a6b0d2cc2152b235f8b523c3bc30",
+      "url": "https://api.gitcode.com/api/v5/repos/Zero-wyc/ZviewerRelease/raw/zviewer-linux-x64.tar.gz?ref=main"
+    },
+    {
+      "name": "zviewer-windows-x64.zip",
+      "size": 29113257,
+      "sha256": "4c91ea6b0097d1e78f66415e5752d471ada1971f190e20bd6e70a96164ed384b",
+      "url": "https://api.gitcode.com/api/v5/repos/Zero-wyc/ZviewerRelease/raw/zviewer-windows-x64.zip?ref=main"
+    },
+    {
+      "name": "zviewer-windows-x64-GUI.zip",
+      "size": 38014241,
+      "sha256": "2e065e7a7c754d6bdfc264fcc99bdf4e99476715056318d0f8372fd6be267a55",
+      "url": "https://api.gitcode.com/api/v5/repos/Zero-wyc/ZviewerRelease/raw/zviewer-windows-x64-GUI.zip?ref=main"
+    }
+  ]
+}
